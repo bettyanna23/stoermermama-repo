@@ -1,0 +1,201 @@
+/* Author: Anna Stoermer */
+/* Date: Feb 2016 */
+
+
+
+
+
+/* Global Sytles */
+
+body {
+    font-size: 18px;
+    font-family:  'Nunito', Helvetica, Arial, sans-serif;
+
+}
+
+
+
+
+
+
+/* Navigation */
+
+
+nav {
+   background-image: url('../img/navbar.png') !important;
+   height: 100px; 
+   width: 100%; 
+   color: black; 
+}
+
+
+nav.navbar-default {
+   padding-top: 25px; 
+   margin:0; 
+}
+
+nav.navbar-default .navbar-nav li a:link, 
+nav.navbar-default .navbar-nav li a:visited {
+    color:black;
+    text-decoration: none; 
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #c64343;
+    -moz-text-shadow: 2px 2px 5px #c64343;
+    -webkit-text-shadow: 2px 2px 5px #c64343;
+}
+
+nav.navbar-default .navbar-nav li a:hover {
+    color: #c64343; 
+    text-decoration: none; 
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #c64343;
+    -moz-text-shadow: 2px 2px 5px #c64343;
+    -webkit-text-shadow: 2px 2px 5px #c64343;
+}
+
+
+nav.navbar-default .navbar-nav li a span:hover {
+    color: #ccc; 
+    text-decoration: none; 
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #c64343;
+    -moz-text-shadow: 2px 2px 5px #c64343;
+    -webkit-text-shadow: 2px 2px 5px #c64343;
+}
+
+
+span.em-letter {
+    color: #f5f5f7; 
+}
+    
+
+/* HEADER */
+
+section#header .jumbo-header {
+    background: url('../img/jumbo.png') no-repeat;
+    width: 100%; 
+    height: 322px; 
+}
+
+
+/* MAIN */
+
+section#main {
+    height: 2200px; 
+    background: gradient(#ddd,#eee,#eee,#eee,#eee); 
+    background: -webkit-linear-gradient(#ddd,#eee,#eee,#eee,#eee); /* For Safari 5.1 to 6.0 */   
+    background: -moz-linear-gradient(#ddd,#eee,#eee,#eee,#eee); /* For Firefox 3.6 to 15 */; 
+}
+
+
+section#main h1 {
+    margin-top: 50px; 
+    margin-bottom: 140px;  
+    text-align: center; 
+    line-height: 36px; 
+    font-size: 34px; 
+    font-weight: bold; 
+    letter-spacing: 0.17px; 
+    text-shadow: 0px 2px 4px #ccc;
+    -moz-text-shadow: 0px 2px 4px #ccc;
+    -webkit-text-shadow: 0px 2px 4px #ccc;
+}
+
+section#main span.em-heading {
+    color: #9c6f81;
+    text-shadow: 0px 2px 4px #9c6f81;
+    -moz-text-shadow: 0px 2px 4px #9c6f81;
+    -webkit-text-shadow: 0px 2px 4px #9c6f81;
+}
+
+
+
+section#main #block1, section#main #block2 {
+    margin-top: -15px; 
+    background-color: #231f20; 
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    padding: 60% 5%; 
+    color: white; 
+    text-align: right;
+}
+
+section#main #pic1 {
+    width: 85%; 
+    float:right;
+
+}
+
+
+
+section#main #block1 {  
+    width: 85%;
+    height: 680px;
+    float:left;
+    margin-bottom: 180px;
+}
+
+section#main .pic-section2 {
+    position: relative; 
+}
+
+section#main #block2 { 
+    width: 90%;
+    height: 825px;  
+    position: absolute;
+    left: 100px; 
+}
+
+section#main #pic2 {
+    width: 80%;  
+    position: absolute;
+    left: 92px; 
+}
+
+
+footer {
+    background: #585253;
+    height: 100px; 
+}
+
+
+footer ul {
+    margin:0;
+    padding:0;
+    list-style: none; 
+    margin-top: 36px;
+}
+
+
+footer ul li {
+    display: inline-block; 
+    margin-left: 20px; 
+
+}
+
+footer ul li a{
+   color: white; 
+}
+
+footer li.big-margin {
+   margin-left: 85px; 
+}
+
+
+    
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
